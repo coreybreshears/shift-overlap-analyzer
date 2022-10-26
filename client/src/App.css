@@ -1,0 +1,61 @@
+body {
+  padding: 2rem;
+}
+
+.m-2 {
+  margin: 0.5rem;
+}
+
+.shift-page-header {
+  margin: auto;
+}
+
+.shift-overlap-result-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  padding: 0rem 1rem;
+  margin: 2rem;
+  border: 3px solid black;
+  font-weight: bold;
+}
+
+.shift-overlap-result-word {
+  margin: 0.25rem 0rem;
+}
+
+.shift-submit-button {
+  width: 150px;
+  height: 40px;
+}
+
+.shift-submit-button:hover {
+  cursor: pointer;
+}
+
+.shift-box-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.shift-box {
+  width: 300px;
+  height: 200px;
+  border: 3px solid black;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.shift-box:hover {
+  cursor: pointer;
+}
+
+.shift-box.selected {
+  background-color: #6fa8dc;
+}
